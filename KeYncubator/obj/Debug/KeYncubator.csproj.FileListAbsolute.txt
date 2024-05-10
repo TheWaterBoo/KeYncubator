@@ -1,0 +1,13 @@
+C:\Users\DEVELOPMX\RiderProjects\KeYncubator\KeYncubator\obj\Debug\KeYncubator.csproj.AssemblyReference.cache
+C:\Users\DEVELOPMX\RiderProjects\KeYncubator\KeYncubator\obj\Debug\KeYncubator.EggControl.resources
+C:\Users\DEVELOPMX\RiderProjects\KeYncubator\KeYncubator\obj\Debug\KeYncubator.Form1.resources
+C:\Users\DEVELOPMX\RiderProjects\KeYncubator\KeYncubator\obj\Debug\KeYncubator.Properties.Resources.resources
+C:\Users\DEVELOPMX\RiderProjects\KeYncubator\KeYncubator\obj\Debug\KeYncubator.csproj.GenerateResource.cache
+C:\Users\DEVELOPMX\RiderProjects\KeYncubator\KeYncubator\obj\Debug\KeYncubator.csproj.CoreCompileInputs.cache
+C:\Users\DEVELOPMX\RiderProjects\KeYncubator\KeYncubator\bin\Debug\KeYncubator.exe.config
+C:\Users\DEVELOPMX\RiderProjects\KeYncubator\KeYncubator\bin\Debug\KeYncubator.exe
+C:\Users\DEVELOPMX\RiderProjects\KeYncubator\KeYncubator\bin\Debug\KeYncubator.pdb
+C:\Users\DEVELOPMX\RiderProjects\KeYncubator\KeYncubator\bin\Debug\KeyboardHookManager.dll
+C:\Users\DEVELOPMX\RiderProjects\KeYncubator\KeYncubator\obj\Debug\KeYncubator.csproj.CopyComplete
+C:\Users\DEVELOPMX\RiderProjects\KeYncubator\KeYncubator\obj\Debug\KeYncubator.exe
+C:\Users\DEVELOPMX\RiderProjects\KeYncubator\KeYncubator\obj\Debug\KeYncubator.pdb

@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeYncubator", "KeYncubator\KeYncubator.csproj", "{EE371630-4B56-47A6-AEAD-0B42397FD2BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE371630-4B56-47A6-AEAD-0B42397FD2BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE371630-4B56-47A6-AEAD-0B42397FD2BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE371630-4B56-47A6-AEAD-0B42397FD2BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE371630-4B56-47A6-AEAD-0B42397FD2BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
