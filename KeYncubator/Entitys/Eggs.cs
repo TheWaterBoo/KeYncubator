@@ -30,9 +30,8 @@ namespace KeYncubator.Entitys
             pressedKeys.Remove(key);
         }
 
-        public static Eggs CreateRandomEgg()
+        public static Eggs CreateRandomEgg(Random rand)
         {
-            Random rand = new Random();
             return new Eggs(rand.Next(100, 200));
         }
     }

@@ -11,3 +11,16 @@ C:\Users\DEVELOPMX\RiderProjects\KeYncubator\KeYncubator\bin\Debug\KeyboardHookM
 C:\Users\DEVELOPMX\RiderProjects\KeYncubator\KeYncubator\obj\Debug\KeYncubator.csproj.CopyComplete
 C:\Users\DEVELOPMX\RiderProjects\KeYncubator\KeYncubator\obj\Debug\KeYncubator.exe
 C:\Users\DEVELOPMX\RiderProjects\KeYncubator\KeYncubator\obj\Debug\KeYncubator.pdb
+E:\JobStuff\Github\KeYncubator\KeYncubator\bin\Debug\KeYncubator.exe.config
+E:\JobStuff\Github\KeYncubator\KeYncubator\bin\Debug\KeYncubator.exe
+E:\JobStuff\Github\KeYncubator\KeYncubator\bin\Debug\KeYncubator.pdb
+E:\JobStuff\Github\KeYncubator\KeYncubator\bin\Debug\KeyboardHookManager.dll
+E:\JobStuff\Github\KeYncubator\KeYncubator\obj\Debug\KeYncubator.csproj.AssemblyReference.cache
+E:\JobStuff\Github\KeYncubator\KeYncubator\obj\Debug\KeYncubator.EggControl.resources
+E:\JobStuff\Github\KeYncubator\KeYncubator\obj\Debug\KeYncubator.Form1.resources
+E:\JobStuff\Github\KeYncubator\KeYncubator\obj\Debug\KeYncubator.Properties.Resources.resources
+E:\JobStuff\Github\KeYncubator\KeYncubator\obj\Debug\KeYncubator.csproj.GenerateResource.cache
+E:\JobStuff\Github\KeYncubator\KeYncubator\obj\Debug\KeYncubator.csproj.CoreCompileInputs.cache
+E:\JobStuff\Github\KeYncubator\KeYncubator\obj\Debug\KeYncuba.49A683D4.Up2Date
+E:\JobStuff\Github\KeYncubator\KeYncubator\obj\Debug\KeYncubator.exe
+E:\JobStuff\Github\KeYncubator\KeYncubator\obj\Debug\KeYncubator.pdb

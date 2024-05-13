@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Reflection;
 using System.Windows.Forms;
@@ -12,6 +13,7 @@ namespace KeYncubator
     {
         private List<Eggs> eggs = new List<Eggs>();
         private const int maxEggs = 3;
+        Random rand = new Random();
         
         private int remainingKeys;
         private bool keyPressed;
@@ -22,8 +24,16 @@ namespace KeYncubator
             HookManager.KeyDown += new KeyEventHandler(KeyDownPressed);
             HookManager.KeyUp += new KeyEventHandler(KeyUpPressed);
             this.KeyPreview = true;
-            createEgg();
-            updateStatus();
+            
+            for (int i = 0; i < maxEggs; i++)
+            {
+                EggControl eggControl = new EggControl(rand);
+                eggControl.Name = "EggControl" + i;
+                eggControl.Location = new Point(10 + i * 150, 10);
+                eggs.Add(Eggs.CreateRandomEgg(rand));
+                eggControl.RemainingKeys = eggs[i].RemainingKeys;
+                this.Controls.Add(eggControl);
+            }
         }
 
         private void KeyDownPressed(object sender, KeyEventArgs e)
@@ -49,18 +59,13 @@ namespace KeYncubator
             }
         }
 
-        private void createEgg()
-        {
-            if (eggs.Count < maxEggs)
-            {
-                Eggs egg = Eggs.CreateRandomEgg();
-                eggs.Add(egg);
-            }
-        }
-
         private void updateStatus()
         {
-            remainingKeysLabel.Text = remainingKeys.ToString();
+            for (int i = 0; i < eggs.Count; i++)
+            {
+                EggControl eggControl = (EggControl)this.Controls["EggControl" + i];
+                eggControl.RemainingKeys = eggs[i].RemainingKeys;
+            }
         }
 
         private void openEgg()
