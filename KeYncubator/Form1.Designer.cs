@@ -29,30 +29,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.reset = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // reset
-            // 
-            this.reset.Location = new System.Drawing.Point(169, 284);
-            this.reset.Name = "reset";
-            this.reset.Size = new System.Drawing.Size(95, 28);
-            this.reset.TabIndex = 3;
-            this.reset.Text = "RESET EGGS";
-            this.reset.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(436, 335);
-            this.Controls.Add(this.reset);
+            this.ClientSize = new System.Drawing.Size(457, 227);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "KeYncubator - alpha v0.0.1";
             this.ResumeLayout(false);
         }
-
-        private System.Windows.Forms.Button reset;
 
         #endregion
     }

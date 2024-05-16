@@ -24,3 +24,5 @@ E:\JobStuff\Github\KeYncubator\KeYncubator\obj\Debug\KeYncubator.csproj.CoreComp
 E:\JobStuff\Github\KeYncubator\KeYncubator\obj\Debug\KeYncuba.49A683D4.Up2Date
 E:\JobStuff\Github\KeYncubator\KeYncubator\obj\Debug\KeYncubator.exe
 E:\JobStuff\Github\KeYncubator\KeYncubator\obj\Debug\KeYncubator.pdb
+C:\Users\DEVELOPMX\RiderProjects\KeYncubator\KeYncubator\obj\Debug\KeYncubator.HatchResult.resources
+C:\Users\DEVELOPMX\RiderProjects\KeYncubator\KeYncubator\obj\Debug\KeYncubator.AddBtnControl.resources

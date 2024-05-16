@@ -49,6 +49,12 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="AddBtnControl.cs">
+          <SubType>UserControl</SubType>
+        </Compile>
+        <Compile Include="AddBtnControl.Designer.cs">
+          <DependentUpon>AddBtnControl.cs</DependentUpon>
+        </Compile>
         <Compile Include="EggControl.cs">
           <SubType>UserControl</SubType>
         </Compile>
@@ -70,6 +76,9 @@
         </Compile>
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
+        <EmbeddedResource Include="AddBtnControl.resx">
+          <DependentUpon>AddBtnControl.cs</DependentUpon>
+        </EmbeddedResource>
         <EmbeddedResource Include="EggControl.resx">
           <DependentUpon>EggControl.cs</DependentUpon>
         </EmbeddedResource>
@@ -103,8 +112,11 @@
         <None Include="App.config"/>
     </ItemGroup>
     <ItemGroup>
+      <Content Include="Resources\addControl.jpeg" />
+      <Content Include="Resources\add_btn64.png" />
       <Content Include="Resources\annoyDogGif.gif" />
       <Content Include="Resources\BluEgg.png" />
+      <Content Include="Resources\boton-agregar.png" />
       <Content Include="Resources\Egg.png" />
       <Content Include="Resources\GrinEgg.png" />
       <Content Include="Resources\randDogGif1.gif" />

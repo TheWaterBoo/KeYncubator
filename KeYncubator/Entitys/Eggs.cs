@@ -7,7 +7,7 @@ namespace KeYncubator.Entitys
     public class Eggs
     {
         public int RemainingKeys { get; set; }
-        private HashSet<Keys> pressedKeys = new HashSet<Keys>();
+        private HashSet<Keys> _pressedKeys = new HashSet<Keys>();
 
         public Eggs(int remainingKeys)
         {
@@ -16,9 +16,9 @@ namespace KeYncubator.Entitys
 
         public bool KeyPressed(Keys key)
         {
-            if (!pressedKeys.Contains(key))
+            if (!_pressedKeys.Contains(key))
             {
-                pressedKeys.Add(key);
+                _pressedKeys.Add(key);
                 return true;
             }
 
@@ -27,7 +27,7 @@ namespace KeYncubator.Entitys
 
         public void KeyReleased(Keys key)
         {
-            pressedKeys.Remove(key);
+            _pressedKeys.Remove(key);
         }
 
         public static Eggs CreateRandomEgg(Random rand)

@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Drawing;
+using System.IO;
 using System.Windows.Forms;
 using KeYncubator.Properties;
 
@@ -7,10 +9,15 @@ namespace KeYncubator
 {
     public partial class EggControl : UserControl
     {
+        private List<String> eggsImgs = new List<string>
+        {
+            "Egg.png", "BluEgg.png", "GrinEgg.png"
+        };
+        
         public EggControl(Random rand)
         {
             InitializeComponent();
-            randImgEgg(rand);
+            RandImgEgg(rand);
         }
 
         public int RemainingKeys
@@ -19,22 +26,15 @@ namespace KeYncubator
             set { remainingKeysLabel.Text = value.ToString();  }
         }
 
-        private void randImgEgg(Random rand)
+        private void RandImgEgg(Random rand)
         {
-            int randNum = rand.Next(1, 4);
-            
-            switch (randNum)
-            {
-                case 1:
-                    pictureEgg.Image = Image.FromFile(@"E:\JobStuff\Github\KeYncubator\KeYncubator\Resources\Egg.png");
-                    break;
-                case 2:
-                    pictureEgg.Image = Image.FromFile(@"E:\JobStuff\Github\KeYncubator\KeYncubator\Resources\BluEgg.png");
-                    break;
-                case 3:
-                    pictureEgg.Image = Image.FromFile(@"E:\JobStuff\Github\KeYncubator\KeYncubator\Resources\GrinEgg.png");
-                    break;
-            }
+            int randNum = rand.Next(eggsImgs.Count);
+            PicBoxAssign(eggsImgs[randNum]);
+        }
+
+        private void PicBoxAssign(string name)
+        {
+            pictureEgg.Image = Image.FromFile(Path.Combine(Application.StartupPath + "/../../Resources/", name));
         }
     }
 }
